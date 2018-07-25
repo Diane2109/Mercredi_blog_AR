@@ -21,3 +21,5 @@ end
 15.times do |index| # Crée 15 likes random avec Faker
   like = Like.create(user_id: rand(1..10), article_id: rand(1..10))
 end
+
+puts "10 users, 10 catégories, 10 articles, 15 commentaires et 15 likes ont été attribué aléatoirement."
